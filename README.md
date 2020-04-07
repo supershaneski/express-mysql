@@ -2,15 +2,9 @@ express-mysql
 ================
 
 ## Description
-A simple CRUD application using [mySQL](https://www.npmjs.com/package/mysql) for database.
-This is part of the series of exercises to practice MERN stack.
+A simple CRUD application using [mySQL](https://www.npmjs.com/package/mysql) for database. This is part of the series of exercises to practice MERN stack.
 
-I will later on replace the mySQL part with [MongoDB](https://www.npmjs.com/package/mongodb) to demonstrate that independence of the front-end side to the server.
-
-This application handles the server operation of a simple Todo app.
-
-## Front-End Application
-> Put URL here
+For the [MongoDB] version, please check [this repository](https://github.com/supershaneski/express-mongodb).
 
 ## Installation
 Clone repository and run
