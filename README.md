@@ -2,9 +2,18 @@ express-mysql
 ================
 
 ## Description
-A simple CRUD application using [mySQL](https://www.npmjs.com/package/mysql) for database. This is part of the series of exercises to practice MERN stack.
+This is part of the series of exercises to demonstrate MERN stack.
 
-For the [MongoDB] version, please check [this repository](https://github.com/supershaneski/express-mongodb).
+* Server: [express-mysql](http://github.com/supershaneski/express-mysql) (this repository)
+* Server: [express-mongodb](http://github.com/supershaneski/express-mongodb) (MongoDB version)
+* Client: [react-crud-app](http://github.com/supershaneski/react-crud-app)
+
+This is a simple CRUD server that provides API service for a todo app.
+
+## Important Note
+This assumes that you have mySQL installed in your local computer.
+
+For my circumstance, I use a separate [XAMPP](https://xampp.site/) running for testing.
 
 ## Installation
 Clone repository and run
@@ -33,7 +42,4 @@ Runs the app in the development mode
 npm start
 ```
 
-Open [http://localhost:9000](http://localhost:9000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Point your device to [http://localhost:9000](http://localhost:9000) to access the server.

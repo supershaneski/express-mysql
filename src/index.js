@@ -20,7 +20,10 @@ app.use((req, res, next) => {
 //const connection = require('./db/connection');
 //const query = require('./db/query');
 
-app.get('/', (req, res, next) => next());
+//app.get('/', (req, res, next) => next());
+app.get('/', function (req, res, next) {
+    res.send('Sample CRUD application server');
+});
 app.use('/todo', todoRouter);
 
 app.use(function(req, res, next) {
@@ -28,5 +31,5 @@ app.use(function(req, res, next) {
 });
 
 app.listen(port, () => {
-    console.log(`Simple CRUD application listening on port ${port}!`)
+    console.log(`Sample CRUD application server now listening on port ${port}!`)
 });
